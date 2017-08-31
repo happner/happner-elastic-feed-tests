@@ -1,0 +1,25 @@
+{
+  "name": "happner-elastic-feed-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha silence.js test",
+    "test-func": "mocha silence.js test/func.js",
+    "test-sanity": "mocha silence.js test/sanity.js",
+    "test-perf": "mocha silence.js test/perf.js",
+    "test-analyzer": "mocha silence.js test/analyzer/*"
+  },
+  "devDependencies": {
+    "assert": "^1.4.0",
+    "chai": "^3.5.0",
+    "expect.js": "^0.3.1",
+    "mocha": "*",
+    "request": "^2.81.0",
+    "rimraf": "^2.4.4"
+  },
+  "dependencies": {
+    "async": "1.5.2",
+    "happner-2": "^5.2.0",
+    "happner-elastic-feed": "^1.0.1",
+    "uuid": "3.1.0"
+  }
+}
